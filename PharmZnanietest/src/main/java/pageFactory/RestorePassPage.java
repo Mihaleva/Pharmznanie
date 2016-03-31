@@ -7,6 +7,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Set;
@@ -83,7 +86,7 @@ public class RestorePassPage {
         Thread.sleep(5000);
     }
 
-    public void codeConfirm (WebDriver driver) throws InterruptedException {
+    public void codeConfirm (WebDriver driver) throws InterruptedException, IOException {
 
         //Set<Cookie> cookies = driver.manage().getCookies();
         /*
@@ -134,7 +137,13 @@ public class RestorePassPage {
         for (Cookie cookie : allCookies) {
             System.out.println(String.format( "%s -> %s" , cookie.getName(), cookie.getValue()));
         }
-        Thread.sleep(7000);
+
+        URL url = new URL("http://front.dev.mgrnix.com:53580/request-password-reset");
+        HttpURLConnection http = (HttpURLConnection)url.openConnection();
+        int responseCode = http.getResponseCode();
+        Assert.assertTrue(responseCode == 200);
+        System.out.println(responseCode);
+       // Thread.sleep(7000);
     }
 
     public void putPass(WebDriver driver, String newPassword, String repeatNewPassword) throws InterruptedException {

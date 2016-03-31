@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="185.152" tests="13" errors="0" skipped="0" failures="1">
+<testsuite name="TestSuite" time="21.717" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="15.0.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -11,13 +11,13 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7533"/>
+    <property name="idea.launcher.port" value="7532"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\mihaleva\IdeaProjects\FarmZnanietest"/>
+    <property name="user.dir" value="C:\Users\mihaleva\IdeaProjects\PharmZnanietest"/>
     <property name="java.runtime.version" value="1.8.0_65-b17"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\endorsed"/>
@@ -62,44 +62,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="logInLogOut" classname="LogInTest" time="10.985"/>
-  <testcase name="logErrorPass" classname="ErrorLogInTest" time="7.114"/>
-  <testcase name="logErrorTel" classname="ErrorLogInTest" time="6.522"/>
-  <testcase name="logNullPass" classname="ErrorLogInTest" time="6.541"/>
-  <testcase name="logNullTel" classname="ErrorLogInTest" time="6.552"/>
-  <testcase name="logShotPass" classname="ErrorLogInTest" time="7.017"/>
-  <testcase name="logShotTel" classname="ErrorLogInTest" time="6.52"/>
-  <testcase name="logInLogOut" classname="RestorePassTest" time="17.458"/>
-  <testcase name="logInLogOut" classname="RegistrationTest" time="100.318">
-    <failure message="Timed out after 90 seconds waiting for presence of element located by: By.xpath: .//a[contains(.,&apos;Выйти&apos;)]&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;PC-103-WS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_65&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\mihaleva\AppData\Local\Temp\scoped_dir7984_24073}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.87, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 17708ee76bcb9c20f9fbfb2fbacd40fe" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out after 90 seconds waiting for presence of element located by: By.xpath: .//a[contains(.,'Выйти')]
-Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
-System info: host: 'PC-103-WS', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\mihaleva\AppData\Local\Temp\scoped_dir7984_24073}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.87, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 17708ee76bcb9c20f9fbfb2fbacd40fe
-	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:911)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
-	at Help.Waiter.wait(Waiter.java:21)
-	at pageFactory.RegistrationPage.checkRegOk(RegistrationPage.java:262)
-	at step.StepRegistration.checkRegOk(StepRegistration.java:119)
-	at RegistrationTest.logInLogOut(RegistrationTest.java:38)
-</failure>
-  </testcase>
-  <testcase name="ErrorInvalidField" classname="ErrorRegistrationTest" time="8.217"/>
-  <testcase name="ErrorLengthMaxField" classname="ErrorRegistrationTest" time="2.99"/>
-  <testcase name="ErrorLengthMinField" classname="ErrorRegistrationTest" time="2.874"/>
-  <testcase name="NullField" classname="ErrorRegistrationTest" time="2.044"/>
+  <testcase name="logInLogOut" classname="RestorePassTest" time="21.717"/>
 </testsuite>

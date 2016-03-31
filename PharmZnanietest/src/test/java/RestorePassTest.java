@@ -9,6 +9,8 @@ import step.StepRegistration;
 import step.StepRestorePassword;
 import step.StepLogin;
 
+import java.io.IOException;
+
 /**
  * Created by mihaleva on 25.03.2016.
  */
@@ -18,7 +20,7 @@ public class RestorePassTest extends BaseTest {
     StepRestorePassword step = null;
 
     @Test
-    public void logInLogOut() throws InterruptedException {
+    public void logInLogOut() throws InterruptedException, IOException {
 
         step.
                 openPharm().

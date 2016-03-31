@@ -7,6 +7,8 @@ import pageFactory.ProfilePage;
 import pageFactory.RestorePassPage;
 import ru.yandex.qatools.allure.annotations.Step;
 
+import java.io.IOException;
+
 /**
  * Created by mihaleva on 25.03.2016.
  */
@@ -64,7 +66,7 @@ public class StepRestorePassword extends BaseSteps {
         }
 
         @Step("Confirm Telephone")
-        public StepRestorePassword confirmTel() throws InterruptedException {
+        public StepRestorePassword confirmTel() throws InterruptedException, IOException {
             Thread.sleep(1000);
             restorePassPage.codeConfirm(driver);
             return this;

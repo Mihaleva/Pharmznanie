@@ -3,46 +3,7 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Google suites (0)]">
   <test name="FarmZnanie testx">
     <classes>
-      <class name="LogInTest"/>
-      <class name="ErrorLogInTest"/>
       <class name="RestorePassTest"/>
-      <class name="RegistrationTest"/>
-      <class name="ErrorRegistrationTest"/>
     </classes>
   </test> <!-- FarmZnanie testx -->
-  <test name="FarmZnanie testx(failed)">
-    <classes>
-      <class name="RegistrationTest">
-        <methods>
-          <include name="killDriver"/>
-          <include name="logInLogOut"/>
-          <include name="bornDriver"/>
-        </methods>
-      </class> <!-- RegistrationTest -->
-      <class name="ErrorRegistrationTest">
-        <methods>
-          <include name="bornDriver"/>
-          <include name="killDriver"/>
-        </methods>
-      </class> <!-- ErrorRegistrationTest -->
-      <class name="RestorePassTest">
-        <methods>
-          <include name="killDriver"/>
-          <include name="bornDriver"/>
-        </methods>
-      </class> <!-- RestorePassTest -->
-      <class name="ErrorLogInTest">
-        <methods>
-          <include name="killDriver"/>
-          <include name="bornDriver"/>
-        </methods>
-      </class> <!-- ErrorLogInTest -->
-      <class name="LogInTest">
-        <methods>
-          <include name="killDriver"/>
-          <include name="bornDriver"/>
-        </methods>
-      </class> <!-- LogInTest -->
-    </classes>
-  </test> <!-- FarmZnanie testx(failed) -->
 </suite> <!-- Failed suite [Google suites (0)] -->
