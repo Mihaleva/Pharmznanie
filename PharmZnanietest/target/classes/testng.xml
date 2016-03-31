@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="Google suites" parallel="false">
+    <!--if you are want to restart failed tests-->
+    <!--<listeners>
+            <listener class-name="common.rerunner.RetryListener"/>
+        </listeners>-->
+
+    <suite-files>
+        <suite-file path="farmZnanie.xml" />
+    </suite-files>
+</suite>

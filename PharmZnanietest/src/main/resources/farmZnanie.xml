@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="Google suites" parallel="false">
+    <!--if you are want to restart failed tests-->
+    <!--<listeners>
+            <listener class-name="common.rerunner.RetryListener"/>
+        </listeners>-->
+
+    <test name="FarmZnanie testx">
+    <classes>
+
+        <class name="LogInTest"/>
+        <class name="ErrorLogInTest"/>
+        <class name="RestorePassTest"/>
+        <class name="RegistrationTest"/>
+        <class name="ErrorRegistrationTest"/>
+
+    </classes>
+    </test>
+</suite>

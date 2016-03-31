@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1459313066867" stop="1459313079675" version="1.4.20" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Google suites (0) : FarmZnanie testx</name>
+    <title>Google suites (0) : FarmZnanie testx</title>
+    <test-cases>
+        <test-case start="1459313068488" stop="1459313078778" status="passed">
+            <name>ErrorInvalidField</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="7244@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
