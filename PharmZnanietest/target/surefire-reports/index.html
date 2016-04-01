@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,22 @@
                     <div class="method-list-content passed suite-Google_suites_(0)">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Google_suites_(0)" title="RestorePassTest" hash-for-method="logInLogOut">logInLogOut</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Google_suites_(0)" title="ErrorRegistrationTest" hash-for-method="ErrorInvalidField">ErrorInvalidField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Google_suites_(0)" title="ErrorRegistrationTest" hash-for-method="ErrorLengthMaxField">ErrorLengthMaxField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Google_suites_(0)" title="ErrorRegistrationTest" hash-for-method="ErrorLengthMinField">ErrorLengthMinField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Google_suites_(0)" title="ErrorRegistrationTest" hash-for-method="NullField">NullField</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Google_suites_(0) -->
@@ -122,14 +137,35 @@
           <div class="suite-Google_suites_(0)-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">RestorePassTest</span>
+              <span class="class-name">ErrorRegistrationTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="logInLogOut">
-                  </a> <!-- logInLogOut -->
-                  <span class="method-name">logInLogOut</span>
+                  <a name="ErrorInvalidField">
+                  </a> <!-- ErrorInvalidField -->
+                  <span class="method-name">ErrorInvalidField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ErrorLengthMaxField">
+                  </a> <!-- ErrorLengthMaxField -->
+                  <span class="method-name">ErrorLengthMaxField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ErrorLengthMinField">
+                  </a> <!-- ErrorLengthMinField -->
+                  <span class="method-name">ErrorLengthMinField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NullField">
+                  </a> <!-- NullField -->
+                  <span class="method-name">NullField</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -162,7 +198,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Google suites (0)&quot;&gt;
   &lt;test name=&quot;FarmZnanie testx&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;RestorePassTest&quot;/&gt;
+      &lt;class name=&quot;ErrorRegistrationTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- FarmZnanie testx --&gt;
 &lt;/suite&gt; &lt;!-- Google suites (0) --&gt;
@@ -242,16 +278,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'logInLogOut')
-data.setCell(0, 2, 'RestorePassTest')
-data.setCell(0, 3, 21714);
+data.setCell(0, 1, 'ErrorInvalidField')
+data.setCell(0, 2, 'ErrorRegistrationTest')
+data.setCell(0, 3, 10059);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ErrorLengthMinField')
+data.setCell(1, 2, 'ErrorRegistrationTest')
+data.setCell(1, 3, 2924);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ErrorLengthMaxField')
+data.setCell(2, 2, 'ErrorRegistrationTest')
+data.setCell(2, 3, 2859);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'NullField')
+data.setCell(3, 2, 'ErrorRegistrationTest')
+data.setCell(3, 3, 2041);
 window.suiteTableData['Google_suites_(0)']= { tableData: data, tableDiv: 'times-div-Google_suites_(0)'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-Google_suites_(0)">
               </div> <!-- times-div-Google_suites_(0) -->
             </div> <!-- times-div -->
@@ -298,18 +346,30 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">RestorePassTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">ErrorRegistrationTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">bornDriver</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">logInLogOut</span>
-                <span class="method-start">1674 ms</span>
+                <span class="method-name">ErrorInvalidField</span>
+                <span class="method-start">1577 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ErrorLengthMaxField</span>
+                <span class="method-start">11710 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ErrorLengthMinField</span>
+                <span class="method-start">14571 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NullField</span>
+                <span class="method-start">17499 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">killDriver</span>
-                <span class="method-start">23465 ms</span>
+                <span class="method-start">19542 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

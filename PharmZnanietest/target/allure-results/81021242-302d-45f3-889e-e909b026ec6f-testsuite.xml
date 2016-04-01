@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1459486287588" stop="1459486315646" version="1.4.20" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Google suites (0) : FarmZnanie testx</name>
+    <title>Google suites (0) : FarmZnanie testx</title>
+    <test-cases>
+        <test-case start="1459486289235" stop="1459486301361" status="passed">
+            <name>logInLogOut</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="10236@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1459486301393" stop="1459486309065" status="passed">
+            <name>ErrorInvalidField</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="10236@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1459486309072" stop="1459486310793" status="passed">
+            <name>ErrorLengthMaxField</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="10236@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1459486310794" stop="1459486313212" status="passed">
+            <name>ErrorLengthMinField</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="10236@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1459486313215" stop="1459486314763" status="passed">
+            <name>NullField</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="10236@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

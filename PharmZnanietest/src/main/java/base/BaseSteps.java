@@ -14,12 +14,18 @@ public class BaseSteps {
         this.driver = driver;
     }
 
-    String urlYou = "http://front.dev.mgrnix.com:53580/";
+    String url = "http://front.dev.mgrnix.com:53580/";
+    String urlLan = "http://pharmznanie.ru/";
+
 
 
     public void navigate() {
 
-        driver.get(urlYou);
+        driver.get(url);
+    }
+    public void navigateLan() {
+
+        driver.get(urlLan);
     }
 
     public void kill() {
