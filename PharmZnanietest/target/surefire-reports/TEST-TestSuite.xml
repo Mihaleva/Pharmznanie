@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="10.02" tests="6" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="53.032" tests="24" errors="0" skipped="0" failures="13">
   <properties>
     <property name="idea.version" value="15.0.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\bin"/>
     <property name="java.vm.version" value="25.65-b01"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\mihaleva\IdeaProjects\PharmZnanie\PharmZnanietest"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\mihaleva\Documents\PharmZnanie\PharmZnanietest"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7536"/>
+    <property name="idea.launcher.port" value="7541"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\mihaleva\IdeaProjects\PharmZnanie\PharmZnanietest"/>
+    <property name="user.dir" value="C:\Users\mihaleva\Documents\PharmZnanie\PharmZnanietest"/>
     <property name="java.runtime.version" value="1.8.0_65-b17"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\endorsed"/>
@@ -63,10 +63,158 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="logErrorTel" classname="ErrorLogInTest" time="10.02"/>
-  <testcase name="logErrorTel" classname="ErrorLogInTest" time="6.297"/>
-  <testcase name="logErrorTel" classname="ErrorLogInTest" time="6.877"/>
-  <testcase name="logErrorTel" classname="ErrorLogInTest" time="6.112"/>
-  <testcase name="logErrorTel" classname="ErrorLogInTest" time="6.073"/>
-  <testcase name="logErrorTel" classname="ErrorLogInTest" time="6.075"/>
+  <testcase name="logInLogOut" classname="LogInTest" time="25.65"/>
+  <testcase name="logInLogOut" classname="LogInTest" time="8.344"/>
+  <testcase name="logErrorTel" classname="ErrorLogInTest" time="5.859"/>
+  <testcase name="logErrorTel" classname="ErrorLogInTest" time="5.943"/>
+  <testcase name="logErrorTel" classname="ErrorLogInTest" time="7.236"/>
+  <testcase name="logErrorTel" classname="ErrorLogInTest" time="5.732"/>
+  <testcase name="logErrorTel" classname="ErrorLogInTest" time="5.797"/>
+  <testcase name="logErrorTel" classname="ErrorLogInTest" time="5.763"/>
+  <testcase name="registrationValidData" classname="RegistrationTest" time="4.115">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at RegistrationTest.registrationValidData(RegistrationTest.java:40)
+</failure>
+  </testcase>
+  <testcase name="registrationValidData" classname="RegistrationTest" time="1.312">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at RegistrationTest.registrationValidData(RegistrationTest.java:40)
+</failure>
+  </testcase>
+  <testcase name="registrationValidData" classname="RegistrationTest" time="0.89">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at RegistrationTest.registrationValidData(RegistrationTest.java:40)
+</failure>
+  </testcase>
+  <testcase name="ErrorInvalidField" classname="ErrorRegistrationTest" time="0.812">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at ErrorRegistrationTest.ErrorInvalidField(ErrorRegistrationTest.java:83)
+</failure>
+  </testcase>
+  <testcase name="ErrorInvalidField" classname="ErrorRegistrationTest" time="0.777">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at ErrorRegistrationTest.ErrorInvalidField(ErrorRegistrationTest.java:83)
+</failure>
+  </testcase>
+  <testcase name="ErrorInvalidField" classname="ErrorRegistrationTest" time="1.347">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at ErrorRegistrationTest.ErrorInvalidField(ErrorRegistrationTest.java:83)
+</failure>
+  </testcase>
+  <testcase name="ErrorInvalidField" classname="ErrorRegistrationTest" time="3.631">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at ErrorRegistrationTest.ErrorInvalidField(ErrorRegistrationTest.java:83)
+</failure>
+  </testcase>
+  <testcase name="ErrorInvalidField" classname="ErrorRegistrationTest" time="1.024">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at ErrorRegistrationTest.ErrorInvalidField(ErrorRegistrationTest.java:83)
+</failure>
+  </testcase>
+  <testcase name="ErrorInvalidField" classname="ErrorRegistrationTest" time="0.806">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at ErrorRegistrationTest.ErrorInvalidField(ErrorRegistrationTest.java:83)
+</failure>
+  </testcase>
+  <testcase name="ErrorInvalidField" classname="ErrorRegistrationTest" time="5.06"/>
+  <testcase name="ErrorLengthMaxField" classname="ErrorRegistrationTest" time="0.826">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at ErrorRegistrationTest.ErrorLengthMaxField(ErrorRegistrationTest.java:46)
+</failure>
+  </testcase>
+  <testcase name="ErrorLengthMinField" classname="ErrorRegistrationTest" time="0.871">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at ErrorRegistrationTest.ErrorLengthMinField(ErrorRegistrationTest.java:66)
+</failure>
+  </testcase>
+  <testcase name="ErrorLengthMinField" classname="ErrorRegistrationTest" time="0.873">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at ErrorRegistrationTest.ErrorLengthMinField(ErrorRegistrationTest.java:66)
+</failure>
+  </testcase>
+  <testcase name="ErrorNullField" classname="ErrorRegistrationTest" time="1.497">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at ErrorRegistrationTest.ErrorNullField(ErrorRegistrationTest.java:26)
+</failure>
+  </testcase>
+  <testcase name="logIn" classname="WebinarTest" time="10.231"/>
+  <testcase name="viewWebinarLogUser" classname="WebinarTest" time="3.171"/>
 </testsuite>

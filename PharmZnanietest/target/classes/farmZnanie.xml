@@ -9,15 +9,15 @@
     <test name="FarmZnanie testx">
     <classes>
 
-        <!--<class name="LogInTest"/>-->
+        <class name="LogInTest"/>
         <class name="ErrorLogInTest"/>
         <!-- <class name="RestorePassTest"/> -->
-        <!--<class name="RegistrationTest"/>-->
-        <!--<class name="ErrorRegistrationTest"/>-->
+        <class name="RegistrationTest"/>
+        <class name="ErrorRegistrationTest"/>
         <!--<class name="StartPageTest"/>-->
         <!-- <class name="LandingTest"/> -->
        <!-- <class name="ErrorLandingTest"/> -->
-        <!--<class name="WebinarTest"/>-->
+        <class name="WebinarTest"/>
 
     </classes>
     </test>

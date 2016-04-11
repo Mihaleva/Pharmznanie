@@ -1,4 +1,134 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 44.312 sec - in TestSuite
+Tests run: 24, Failures: 13, Errors: 0, Skipped: 0, Time elapsed: 111.025 sec <<< FAILURE! - in TestSuite
+registrationValidData(RegistrationTest)  Time elapsed: 4.115 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at RegistrationTest.registrationValidData(RegistrationTest.java:40)
+
+registrationValidData(RegistrationTest)  Time elapsed: 1.312 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at RegistrationTest.registrationValidData(RegistrationTest.java:40)
+
+registrationValidData(RegistrationTest)  Time elapsed: 0.89 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at RegistrationTest.registrationValidData(RegistrationTest.java:40)
+
+ErrorInvalidField(ErrorRegistrationTest)  Time elapsed: 0.812 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at ErrorRegistrationTest.ErrorInvalidField(ErrorRegistrationTest.java:83)
+
+ErrorInvalidField(ErrorRegistrationTest)  Time elapsed: 0.777 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at ErrorRegistrationTest.ErrorInvalidField(ErrorRegistrationTest.java:83)
+
+ErrorInvalidField(ErrorRegistrationTest)  Time elapsed: 1.347 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at ErrorRegistrationTest.ErrorInvalidField(ErrorRegistrationTest.java:83)
+
+ErrorInvalidField(ErrorRegistrationTest)  Time elapsed: 3.631 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at ErrorRegistrationTest.ErrorInvalidField(ErrorRegistrationTest.java:83)
+
+ErrorInvalidField(ErrorRegistrationTest)  Time elapsed: 1.024 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at ErrorRegistrationTest.ErrorInvalidField(ErrorRegistrationTest.java:83)
+
+ErrorInvalidField(ErrorRegistrationTest)  Time elapsed: 0.806 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at ErrorRegistrationTest.ErrorInvalidField(ErrorRegistrationTest.java:83)
+
+ErrorLengthMaxField(ErrorRegistrationTest)  Time elapsed: 0.826 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at ErrorRegistrationTest.ErrorLengthMaxField(ErrorRegistrationTest.java:46)
+
+ErrorLengthMinField(ErrorRegistrationTest)  Time elapsed: 0.871 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at ErrorRegistrationTest.ErrorLengthMinField(ErrorRegistrationTest.java:66)
+
+ErrorLengthMinField(ErrorRegistrationTest)  Time elapsed: 0.873 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at ErrorRegistrationTest.ErrorLengthMinField(ErrorRegistrationTest.java:66)
+
+ErrorNullField(ErrorRegistrationTest)  Time elapsed: 1.497 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
+	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
+	at ErrorRegistrationTest.ErrorNullField(ErrorRegistrationTest.java:26)
+

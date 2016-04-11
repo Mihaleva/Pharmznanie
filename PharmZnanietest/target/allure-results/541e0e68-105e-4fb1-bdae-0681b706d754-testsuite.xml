@@ -1,55 +1,85 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="13" total="24" passed="11">
-  <reporter-output>
-  </reporter-output>
-  <suite name="Google suites" duration-ms="0" started-at="2016-04-11T09:18:48Z" finished-at="2016-04-11T09:18:48Z">
-    <groups>
-    </groups>
-  </suite> <!-- Google suites -->
-  <suite name="Google suites (0)" duration-ms="110451" started-at="2016-04-11T09:16:57Z" finished-at="2016-04-11T09:18:47Z">
-    <groups>
-    </groups>
-    <test name="FarmZnanie testx" duration-ms="110451" started-at="2016-04-11T09:16:57Z" finished-at="2016-04-11T09:18:47Z">
-      <class name="RegistrationTest">
-        <test-method status="FAIL" signature="registrationValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RegistrationTest@ae45eb6]" name="registrationValidData" duration-ms="4110" started-at="2016-04-11T15:18:09Z" data-provider="Registration" finished-at="2016-04-11T15:18:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Auto]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Test]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Paris]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[qwerty]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[qwerty@fg.yu]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Apt]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1460366011097" stop="1460366147987" version="1.4.20" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Google suites (0) : FarmZnanie testx</name>
+    <title>Google suites (0) : FarmZnanie testx</title>
+    <test-cases>
+        <test-case start="1460366013445" stop="1460366026833" status="passed">
+            <name>logInLogOut[9139875583,105034]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460366026868" stop="1460366034564" status="passed">
+            <name>logInLogOut[4225339181,qwerty]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460366034568" stop="1460366040406" status="passed">
+            <name>logErrorTel[913987353,qwertyuiop]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460366040408" stop="1460366046225" status="passed">
+            <name>logErrorTel[9139875583,qwertytyu]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460366046227" stop="1460366052016" status="passed">
+            <name>logErrorTel[9139875583,]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460366052018" stop="1460366057807" status="passed">
+            <name>logErrorTel[,qwerty]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460366057808" stop="1460366063574" status="passed">
+            <name>logErrorTel[913987558,qwerty]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460366063576" stop="1460366069373" status="passed">
+            <name>logErrorTel[913987558,qwert]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460366069376" stop="1460366070420" status="failed">
+            <name>registrationValidData[Auto,Test,Paris,qwerty,qwerty@fg.yu,Apt]</name>
+            <failure>
+                <message>AssertionError: expected [true] but found [false]</message>
+                <stack-trace>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertTrue(Assert.java:42)
@@ -85,51 +115,20 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registrationValidData -->
-        <test-method status="FAIL" signature="registrationValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RegistrationTest@ae45eb6]" name="registrationValidData" duration-ms="1312" started-at="2016-04-11T15:18:13Z" data-provider="Registration" finished-at="2016-04-11T15:18:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[авто]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[тест]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Москва]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[qwerty]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[qwerty@fg.yu]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[!@#$%^&*()_+=-0/.,;:<> ]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460366070420" stop="1460366071274" status="failed">
+            <name>registrationValidData[авто,тест,Москва,qwerty,qwerty@fg.yu,!@#$%^&amp;*()_+=-0/.,;:&lt;&gt; ]</name>
+            <failure>
+                <message>AssertionError: expected [true] but found [false]</message>
+                <stack-trace>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertTrue(Assert.java:42)
@@ -165,51 +164,20 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registrationValidData -->
-        <test-method status="FAIL" signature="registrationValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RegistrationTest@ae45eb6]" name="registrationValidData" duration-ms="890" started-at="2016-04-11T15:18:15Z" data-provider="Registration" finished-at="2016-04-11T15:18:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Auto авто]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Test тест]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Paris Москва]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[qwerty]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[qwerty@fg.yu]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[аптека () "fhfhf" '1263729']]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460366071275" stop="1460366072175" status="failed">
+            <name>registrationValidData[Auto авто,Test тест,Paris Москва,qwerty,qwerty@fg.yu,аптека () "fhfhf" '1263729']</name>
+            <failure>
+                <message>AssertionError: expected [true] but found [false]</message>
+                <stack-trace>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertTrue(Assert.java:42)
@@ -245,215 +213,20 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registrationValidData -->
-      </class> <!-- RegistrationTest -->
-      <class name="ErrorLogInTest">
-        <test-method status="PASS" signature="bornDriver()[pri:0, instance:ErrorLogInTest@68c4039c]" name="bornDriver" is-config="true" duration-ms="1833" started-at="2016-04-11T15:16:57Z" finished-at="2016-04-11T15:16:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bornDriver -->
-        <test-method status="PASS" signature="bornDriver()[pri:0, instance:ErrorRegistrationTest@59f99ea]" name="bornDriver" is-config="true" duration-ms="22" started-at="2016-04-11T15:16:59Z" finished-at="2016-04-11T15:16:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bornDriver -->
-        <test-method status="PASS" signature="bornDriver()[pri:0, instance:LogInTest@3532ec19]" name="bornDriver" is-config="true" duration-ms="16" started-at="2016-04-11T15:16:59Z" finished-at="2016-04-11T15:16:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bornDriver -->
-        <test-method status="PASS" signature="bornDriver()[pri:0, instance:RegistrationTest@ae45eb6]" name="bornDriver" is-config="true" duration-ms="18" started-at="2016-04-11T15:16:59Z" finished-at="2016-04-11T15:16:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bornDriver -->
-        <test-method status="PASS" signature="bornDriver()[pri:0, instance:WebinarTest@27efef64]" name="bornDriver" is-config="true" duration-ms="17" started-at="2016-04-11T15:16:59Z" finished-at="2016-04-11T15:16:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bornDriver -->
-        <test-method status="PASS" signature="logErrorTel(java.lang.String, java.lang.String)[pri:0, instance:ErrorLogInTest@68c4039c]" name="logErrorTel" duration-ms="5859" started-at="2016-04-11T15:17:33Z" data-provider="ErrorLoginPass" finished-at="2016-04-11T15:17:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[913987353]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[qwertyuiop]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logErrorTel -->
-        <test-method status="PASS" signature="logErrorTel(java.lang.String, java.lang.String)[pri:0, instance:ErrorLogInTest@68c4039c]" name="logErrorTel" duration-ms="5943" started-at="2016-04-11T15:17:39Z" data-provider="ErrorLoginPass" finished-at="2016-04-11T15:17:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[9139875583]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[qwertytyu]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logErrorTel -->
-        <test-method status="PASS" signature="logErrorTel(java.lang.String, java.lang.String)[pri:0, instance:ErrorLogInTest@68c4039c]" name="logErrorTel" duration-ms="7235" started-at="2016-04-11T15:17:45Z" data-provider="ErrorLoginPass" finished-at="2016-04-11T15:17:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[9139875583]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logErrorTel -->
-        <test-method status="PASS" signature="logErrorTel(java.lang.String, java.lang.String)[pri:0, instance:ErrorLogInTest@68c4039c]" name="logErrorTel" duration-ms="5732" started-at="2016-04-11T15:17:52Z" data-provider="ErrorLoginPass" finished-at="2016-04-11T15:17:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[qwerty]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logErrorTel -->
-        <test-method status="PASS" signature="logErrorTel(java.lang.String, java.lang.String)[pri:0, instance:ErrorLogInTest@68c4039c]" name="logErrorTel" duration-ms="5797" started-at="2016-04-11T15:17:58Z" data-provider="ErrorLoginPass" finished-at="2016-04-11T15:18:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[913987558]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[qwerty]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logErrorTel -->
-        <test-method status="PASS" signature="logErrorTel(java.lang.String, java.lang.String)[pri:0, instance:ErrorLogInTest@68c4039c]" name="logErrorTel" duration-ms="5763" started-at="2016-04-11T15:18:03Z" data-provider="ErrorLoginPass" finished-at="2016-04-11T15:18:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[913987558]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[qwert]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logErrorTel -->
-        <test-method status="PASS" signature="killDriver()[pri:0, instance:ErrorLogInTest@68c4039c]" name="killDriver" is-config="true" duration-ms="889" started-at="2016-04-11T15:18:46Z" finished-at="2016-04-11T15:18:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- killDriver -->
-        <test-method status="PASS" signature="killDriver()[pri:0, instance:LogInTest@3532ec19]" name="killDriver" is-config="true" duration-ms="1" started-at="2016-04-11T15:18:47Z" finished-at="2016-04-11T15:18:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- killDriver -->
-        <test-method status="PASS" signature="killDriver()[pri:0, instance:ErrorRegistrationTest@59f99ea]" name="killDriver" is-config="true" duration-ms="0" started-at="2016-04-11T15:18:47Z" finished-at="2016-04-11T15:18:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- killDriver -->
-        <test-method status="PASS" signature="killDriver()[pri:0, instance:RegistrationTest@ae45eb6]" name="killDriver" is-config="true" duration-ms="0" started-at="2016-04-11T15:18:47Z" finished-at="2016-04-11T15:18:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- killDriver -->
-        <test-method status="PASS" signature="killDriver()[pri:0, instance:WebinarTest@27efef64]" name="killDriver" is-config="true" duration-ms="0" started-at="2016-04-11T15:18:47Z" finished-at="2016-04-11T15:18:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- killDriver -->
-      </class> <!-- ErrorLogInTest -->
-      <class name="LogInTest">
-        <test-method status="PASS" signature="logInLogOut(java.lang.String, java.lang.String)[pri:0, instance:LogInTest@3532ec19]" name="logInLogOut" duration-ms="25648" started-at="2016-04-11T15:16:59Z" data-provider="LoginPass" finished-at="2016-04-11T15:17:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[9139875583]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[105034]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logInLogOut -->
-        <test-method status="PASS" signature="logInLogOut(java.lang.String, java.lang.String)[pri:0, instance:LogInTest@3532ec19]" name="logInLogOut" duration-ms="8344" started-at="2016-04-11T15:17:25Z" data-provider="LoginPass" finished-at="2016-04-11T15:17:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[4225339181]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[qwerty]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logInLogOut -->
-      </class> <!-- LogInTest -->
-      <class name="ErrorRegistrationTest">
-        <test-method status="FAIL" signature="ErrorInvalidField(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ErrorRegistrationTest@59f99ea]" name="ErrorInvalidField" duration-ms="812" started-at="2016-04-11T15:18:16Z" data-provider="ErrorRegistration" finished-at="2016-04-11T15:18:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[!@#$%^&*()_]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[!@#$%^&*()_]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[qwerty]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460366072176" stop="1460366073056" status="failed">
+            <name>ErrorInvalidField[!@#$%^&amp;*()_,!@#$%^&amp;*()_,12345,qwerty]</name>
+            <failure>
+                <message>AssertionError: expected [true] but found [false]</message>
+                <stack-trace>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertTrue(Assert.java:42)
@@ -489,41 +262,29 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ErrorInvalidField -->
-        <test-method status="FAIL" signature="ErrorInvalidField(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ErrorRegistrationTest@59f99ea]" name="ErrorInvalidField" duration-ms="777" started-at="2016-04-11T15:18:16Z" data-provider="ErrorRegistration" finished-at="2016-04-11T15:18:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[!@#$%^&*()_]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460366073056" stop="1460366076487" status="passed">
+            <name>ErrorInvalidField[12345,12345,!@#$%^&amp;*()_,12345]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460366076492" stop="1460366077630" status="failed">
+            <name>ErrorInvalidField[12gfgds,123fgd,!@#кап$%^&amp;*()_,!@#$%^]</name>
+            <failure>
+                <message>AssertionError: expected [true] but found [false]</message>
+                <stack-trace>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertTrue(Assert.java:42)
@@ -559,41 +320,20 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ErrorInvalidField -->
-        <test-method status="FAIL" signature="ErrorInvalidField(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ErrorRegistrationTest@59f99ea]" name="ErrorInvalidField" duration-ms="1339" started-at="2016-04-11T15:18:17Z" data-provider="ErrorRegistration" finished-at="2016-04-11T15:18:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[12gfgds]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123fgd]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[!@#кап$%^&*()_]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[!@#$%^]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460366077632" stop="1460366078522" status="failed">
+            <name>ErrorInvalidField[12ывпыа5,12авпва5,!@#$dfhd%^&amp;*()_,qwerty@]</name>
+            <failure>
+                <message>AssertionError: expected [true] but found [false]</message>
+                <stack-trace>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertTrue(Assert.java:42)
@@ -629,41 +369,20 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ErrorInvalidField -->
-        <test-method status="FAIL" signature="ErrorInvalidField(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ErrorRegistrationTest@59f99ea]" name="ErrorInvalidField" duration-ms="3635" started-at="2016-04-11T15:18:18Z" data-provider="ErrorRegistration" finished-at="2016-04-11T15:18:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[12ывпыа5]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12авпва5]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[!@#$dfhd%^&*()_]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[qwerty@]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460366078522" stop="1460366079364" status="failed">
+            <name>ErrorInvalidField[12''//5,12//''345,!@#$453%^&amp;*()_,qwerty fh@yh.f]</name>
+            <failure>
+                <message>AssertionError: expected [true] but found [false]</message>
+                <stack-trace>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertTrue(Assert.java:42)
@@ -699,41 +418,20 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ErrorInvalidField -->
-        <test-method status="FAIL" signature="ErrorInvalidField(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ErrorRegistrationTest@59f99ea]" name="ErrorInvalidField" duration-ms="1024" started-at="2016-04-11T15:18:22Z" data-provider="ErrorRegistration" finished-at="2016-04-11T15:18:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[12''//5]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12//''345]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[!@#$453%^&*()_]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[qwerty fh@yh.f]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460366079364" stop="1460366080384" status="failed">
+            <name>ErrorInvalidField[1вап2dghd2345,123dfgыыа45,!@#$%^&amp;*()_,@ghd.gh]</name>
+            <failure>
+                <message>AssertionError: expected [true] but found [false]</message>
+                <stack-trace>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertTrue(Assert.java:42)
@@ -769,41 +467,20 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ErrorInvalidField -->
-        <test-method status="FAIL" signature="ErrorInvalidField(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ErrorRegistrationTest@59f99ea]" name="ErrorInvalidField" duration-ms="806" started-at="2016-04-11T15:18:23Z" data-provider="ErrorRegistration" finished-at="2016-04-11T15:18:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1вап2dghd2345]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123dfgыыа45]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[!@#$%^&*()_]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[@ghd.gh]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460366080385" stop="1460366081217" status="failed">
+            <name>ErrorInvalidField[1234sdg133#%#%'''/.,,5,12dtr./';][po345,!@#$%^&amp;*()_,qwerty@gfh]</name>
+            <failure>
+                <message>AssertionError: expected [true] but found [false]</message>
+                <stack-trace>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertTrue(Assert.java:42)
@@ -839,72 +516,20 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ErrorInvalidField -->
-        <test-method status="PASS" signature="ErrorInvalidField(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ErrorRegistrationTest@59f99ea]" name="ErrorInvalidField" duration-ms="5061" started-at="2016-04-11T15:18:24Z" data-provider="ErrorRegistration" finished-at="2016-04-11T15:18:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1234sdg133#%#%'''/.,,5]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12dtr./';][po345]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[!@#$%^&*()_]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[qwerty@gfh]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ErrorInvalidField -->
-        <test-method status="FAIL" signature="ErrorLengthMaxField(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ErrorRegistrationTest@59f99ea]" name="ErrorLengthMaxField" duration-ms="826" started-at="2016-04-11T15:18:29Z" data-provider="ErrorLongRegistration" finished-at="2016-04-11T15:18:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[алалеалалегвдытарвдуоатвралалегвдеытарвдуоатвргвдытарвдуоатвр]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[алалеалалегвдытарвдуоатвралалегвдеытарвдуоатвргвдытарвдуоатвр]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[алалеалалегвдытарвдуоатвралалегвдеытарвдуоатвргвдытарвдуоатвр]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[алалеалалегвдытарвдуоатвралалегвдеытарвдуоатвргвдытарвдуоатвр]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[алалеалалегвдытарвдуоатвралалегвдеытарвдуоатвргвдытарвдуоатвр]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460366081217" stop="1460366082046" status="failed">
+            <name>ErrorLengthMaxField[алалеалалегвдытарвдуоатвралалегвдеытарвдуоатвргвдытарвдуоатвр,алалеалалегвдытарвдуоатвралалегвдеытарвдуоатвргвдытарвдуоатвр,алалеалалегвдытарвдуоатвралалегвдеытарвдуоатвргвдытарвдуоатвр,алалеалалегвдытарвдуоатвралалегвдеытарвдуоатвргвдытарвдуоатвр,алалеалалегвдытарвдуоатвралалегвдеытарвдуоатвргвдытарвдуоатвр]</name>
+            <failure>
+                <message>AssertionError: expected [true] but found [false]</message>
+                <stack-trace>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertTrue(Assert.java:42)
@@ -940,36 +565,29 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ErrorLengthMaxField -->
-        <test-method status="FAIL" signature="ErrorLengthMinField(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ErrorRegistrationTest@59f99ea]" name="ErrorLengthMinField" duration-ms="871" started-at="2016-04-11T15:18:30Z" data-provider="ErrorShortRegistration" finished-at="2016-04-11T15:18:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[a]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[a]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[a]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460366082047" stop="1460366085206" status="passed">
+            <name>ErrorLengthMinField[a,a,a]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460366085209" stop="1460366086036" status="failed">
+            <name>ErrorLengthMinField[л,л,л]</name>
+            <failure>
+                <message>AssertionError: expected [true] but found [false]</message>
+                <stack-trace>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertTrue(Assert.java:42)
@@ -1005,84 +623,20 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ErrorLengthMinField -->
-        <test-method status="FAIL" signature="ErrorLengthMinField(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ErrorRegistrationTest@59f99ea]" name="ErrorLengthMinField" duration-ms="873" started-at="2016-04-11T15:18:31Z" data-provider="ErrorShortRegistration" finished-at="2016-04-11T15:18:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[л]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[л]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[л]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at pageFactory.RegistrationPage.clickRegButton(RegistrationPage.java:194)
-	at step.StepRegistration.clickRegButton(StepRegistration.java:44)
-	at ErrorRegistrationTest.ErrorLengthMinField(ErrorRegistrationTest.java:66)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1240)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ErrorLengthMinField -->
-        <test-method status="FAIL" signature="ErrorNullField()[pri:0, instance:ErrorRegistrationTest@59f99ea]" name="ErrorNullField" duration-ms="1496" started-at="2016-04-11T15:18:32Z" finished-at="2016-04-11T15:18:33Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460366086037" stop="1460366087036" status="failed">
+            <name>ErrorNullField</name>
+            <failure>
+                <message>AssertionError: expected [true] but found [false]</message>
+                <stack-trace>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertTrue(Assert.java:42)
@@ -1118,23 +672,174 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ErrorNullField -->
-      </class> <!-- ErrorRegistrationTest -->
-      <class name="WebinarTest">
-        <test-method status="PASS" signature="logIn()[pri:0, instance:WebinarTest@27efef64]" name="logIn" duration-ms="10232" started-at="2016-04-11T15:18:33Z" finished-at="2016-04-11T15:18:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logIn -->
-        <test-method status="PASS" signature="viewWebinarLogUser()[pri:0, instance:WebinarTest@27efef64]" name="viewWebinarLogUser" duration-ms="3174" started-at="2016-04-11T15:18:43Z" finished-at="2016-04-11T15:18:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- viewWebinarLogUser -->
-      </class> <!-- WebinarTest -->
-    </test> <!-- FarmZnanie testx -->
-  </suite> <!-- Google suites (0) -->
-</testng-results>
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460366087036" stop="1460366112055" status="broken">
+            <name>logInWebinar</name>
+            <failure>
+                <message>WebDriverException: unknown error: failed to close UI debuggers
+  (Session info: Opera with embedded Chromium 49.0.2623.87)
+  (Driver info: OperaDriver=0.2.0 (ba47709ed9e35ce26dbd960fb5d75be104290d96),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.04 seconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'PC-103-WS', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\mihaleva\AppData\Local\Temp\scoped_dir10168_19982}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=49.0.2623.87, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 769d2d335abd8a62c74a0ddb437322ab</message>
+                <stack-trace>org.openqa.selenium.WebDriverException: unknown error: failed to close UI debuggers
+  (Session info: Opera with embedded Chromium 49.0.2623.87)
+  (Driver info: OperaDriver=0.2.0 (ba47709ed9e35ce26dbd960fb5d75be104290d96),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.04 seconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'PC-103-WS', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\mihaleva\AppData\Local\Temp\scoped_dir10168_19982}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=49.0.2623.87, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 769d2d335abd8a62c74a0ddb437322ab
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:1015)
+	at pageFactory.StartPage.clickViewAndEnter(StartPage.java:64)
+	at step.StepStartPage.clickViewAndLogIn(StepStartPage.java:51)
+	at StartPageTest.logInWebinar(StartPageTest.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1240)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460366112056" stop="1460366136693" status="broken">
+            <name>registerWebinar</name>
+            <failure>
+                <message>WebDriverException: unknown error: failed to close UI debuggers
+  (Session info: Opera with embedded Chromium 49.0.2623.87)
+  (Driver info: OperaDriver=0.2.0 (ba47709ed9e35ce26dbd960fb5d75be104290d96),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.04 seconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'PC-103-WS', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\mihaleva\AppData\Local\Temp\scoped_dir10168_19982}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=49.0.2623.87, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 769d2d335abd8a62c74a0ddb437322ab</message>
+                <stack-trace>org.openqa.selenium.WebDriverException: unknown error: failed to close UI debuggers
+  (Session info: Opera with embedded Chromium 49.0.2623.87)
+  (Driver info: OperaDriver=0.2.0 (ba47709ed9e35ce26dbd960fb5d75be104290d96),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.04 seconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'PC-103-WS', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\mihaleva\AppData\Local\Temp\scoped_dir10168_19982}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=49.0.2623.87, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 769d2d335abd8a62c74a0ddb437322ab
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:1015)
+	at pageFactory.StartPage.clickViewAndRegister(StartPage.java:85)
+	at step.StepStartPage.clickViewAndRegister(StepStartPage.java:44)
+	at StartPageTest.registerWebinar(StartPageTest.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1240)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460366136695" stop="1460366143849" status="passed">
+            <name>logIn</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460366143850" stop="1460366147011" status="passed">
+            <name>viewWebinarLogUser</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="152@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

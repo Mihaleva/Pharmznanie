@@ -3,7 +3,50 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Google suites (0)]">
   <test name="FarmZnanie testx">
     <classes>
+      <class name="LogInTest"/>
       <class name="ErrorLogInTest"/>
+      <class name="RegistrationTest"/>
+      <class name="ErrorRegistrationTest"/>
+      <class name="WebinarTest"/>
     </classes>
   </test> <!-- FarmZnanie testx -->
+  <test name="FarmZnanie testx(failed)">
+    <classes>
+      <class name="ErrorRegistrationTest">
+        <methods>
+          <include name="ErrorLengthMinField" invocation-numbers="0 1"/>
+          <include name="bornDriver"/>
+          <include name="ErrorNullField"/>
+          <include name="ErrorLengthMaxField" invocation-numbers="0"/>
+          <include name="killDriver"/>
+          <include name="ErrorInvalidField" invocation-numbers="0 1 2 3 4 5"/>
+        </methods>
+      </class> <!-- ErrorRegistrationTest -->
+      <class name="WebinarTest">
+        <methods>
+          <include name="bornDriver"/>
+          <include name="killDriver"/>
+        </methods>
+      </class> <!-- WebinarTest -->
+      <class name="RegistrationTest">
+        <methods>
+          <include name="killDriver"/>
+          <include name="registrationValidData" invocation-numbers="0 1 2"/>
+          <include name="bornDriver"/>
+        </methods>
+      </class> <!-- RegistrationTest -->
+      <class name="ErrorLogInTest">
+        <methods>
+          <include name="killDriver"/>
+          <include name="bornDriver"/>
+        </methods>
+      </class> <!-- ErrorLogInTest -->
+      <class name="LogInTest">
+        <methods>
+          <include name="killDriver"/>
+          <include name="bornDriver"/>
+        </methods>
+      </class> <!-- LogInTest -->
+    </classes>
+  </test> <!-- FarmZnanie testx(failed) -->
 </suite> <!-- Failed suite [Google suites (0)] -->
