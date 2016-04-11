@@ -3,7 +3,7 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Google suites (0)]">
   <test name="FarmZnanie testx">
     <classes>
-      <class name="ErrorRegistrationTest"/>
+      <class name="ErrorLogInTest"/>
     </classes>
   </test> <!-- FarmZnanie testx -->
 </suite> <!-- Failed suite [Google suites (0)] -->

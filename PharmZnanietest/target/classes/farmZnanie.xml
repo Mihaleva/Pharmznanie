@@ -10,12 +10,14 @@
     <classes>
 
         <!--<class name="LogInTest"/>-->
-        <!--<class name="ErrorLogInTest"/>-->
-        <!--<class name="RestorePassTest"/>-->
+        <class name="ErrorLogInTest"/>
+        <!-- <class name="RestorePassTest"/> -->
         <!--<class name="RegistrationTest"/>-->
-        <class name="ErrorRegistrationTest"/>
-        <!--<class name="LandingTest"/>-->
-       <!-- <class name="ErrorLandingTest"/>-->
+        <!--<class name="ErrorRegistrationTest"/>-->
+        <!--<class name="StartPageTest"/>-->
+        <!-- <class name="LandingTest"/> -->
+       <!-- <class name="ErrorLandingTest"/> -->
+        <!--<class name="WebinarTest"/>-->
 
     </classes>
     </test>

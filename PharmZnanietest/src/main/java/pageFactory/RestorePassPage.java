@@ -138,7 +138,7 @@ public class RestorePassPage {
             System.out.println(String.format( "%s -> %s" , cookie.getName(), cookie.getValue()));
         }
 
-        URL url = new URL("http://front.dev.mgrnix.com:53580/request-password-reset");
+        URL url = new URL("http://pharmznanie.ru/request-password-reset");
         HttpURLConnection http = (HttpURLConnection)url.openConnection();
         int responseCode = http.getResponseCode();
         Assert.assertTrue(responseCode == 200);

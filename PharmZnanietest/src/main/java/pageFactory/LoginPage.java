@@ -111,9 +111,9 @@ public class LoginPage {
     }
 
     public void checkNotEnter (WebDriver driver) throws InterruptedException {
-
-        Waiter.wait(driver, ".//div[contains(.,'Некорректный пароль или телефон')]", 90, 'x');
-        Assert.assertTrue(errorMassage.isDisplayed());
+        Assert.assertTrue(driver.getCurrentUrl().equals("http://front.dev.mgrnix.com:53580/login"));
+       // Waiter.wait(driver, ".//div[contains(.,'Некорректный пароль или телефон')]", 90, 'x');
+        //Assert.assertTrue(errorMassage.isDisplayed());
     }
 
     public void checkErrorNullTel (WebDriver driver) throws InterruptedException {

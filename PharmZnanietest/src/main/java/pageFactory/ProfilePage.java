@@ -22,6 +22,9 @@ public class ProfilePage {
     WebElement logOutButton;
 
 
+    @FindBy(xpath = ".//a[contains(.,'Смотреть')]")
+    WebElement view;
+
     public void clickLogOutButton(WebDriver driver) throws InterruptedException {
 
         //Waiter.wait(driver, ".//a[contains(.,'Выйти')]", 10, 'x');
@@ -31,5 +34,12 @@ public class ProfilePage {
         Assert.assertTrue(driver.getCurrentUrl().equals("http://front.dev.mgrnix.com:53580/"));
     }
 
+    public void clickViewVebinar(WebDriver driver) throws InterruptedException {
+
+        Waiter.wait(driver, ".//a[contains(.,'Смотреть')]", 10, 'x');
+        Assert.assertTrue(view.isDisplayed());
+        view.click();
+        Thread.sleep(6000);
+    }
 
 }

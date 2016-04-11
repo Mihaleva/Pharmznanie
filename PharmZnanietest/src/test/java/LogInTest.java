@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import step.StepLogin;
 
@@ -22,14 +23,27 @@ public class LogInTest extends BaseTest {
     WebDriver driver = null;
     StepLogin step = null;
 
-    @Test
-    public void logInLogOut() throws InterruptedException {
+
+/*
+    public class DataProviders {
+        @DataProvider(name = "LoginPass")
+        public static Object[][] createData1() {
+            return new Object[][] {
+                    {  "9139875583", "105034" }
+
+            };
+        }
+    }
+
+*/
+    @Test (dataProvider = "LoginPass", dataProviderClass = DataProviders.class)
+    public void logInLogOut(String tel, String pass) throws InterruptedException {
 
         step.
                 openPharm().
                 clickSignIn().
-                putTelephone("9139875583").
-                putPassword("qwerty").
+                putTelephone(tel).
+                putPassword(pass).
                 clickEnter().
                 checkLog().
                 logOut();

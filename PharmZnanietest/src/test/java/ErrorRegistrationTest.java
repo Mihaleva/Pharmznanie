@@ -19,7 +19,7 @@ public class ErrorRegistrationTest extends BaseTest {
     StepLogin stepLogin = null;
 
     @Test
-    public void NullField() throws InterruptedException {
+    public void ErrorNullField() throws InterruptedException {
 
         step.
                 openPharm().
@@ -38,17 +38,17 @@ public class ErrorRegistrationTest extends BaseTest {
 
     }
 
-    @Test
-    public void ErrorLengthMaxField() throws InterruptedException {
+    @Test (dataProvider = "ErrorLongRegistration", dataProviderClass = DataProviders.class)
+    public void ErrorLengthMaxField(String last, String first, String pass, String city, String apteka) throws InterruptedException {
 
         step.
                 openPharm().
                 clickRegButton().
-                putLastName("алалеалалегвдытарвдуоатвралалегвдеытарвдуоатвргвдытарвдуоатвр").
-                putFirstName("алалеалалегвдытарвдуоатвралалегвдеытарвдуоатвргвдытарвдуоатвр").
-                putPassword("алалеалалегвдытарвдуоатвралалегвдеытарвдуоатвргвдытарвдуоатвр").
-                putCity("алалеалалегвдытарвдуоатвралалегвдеытарвдуоатвргвдытарвдуоатвр").
-                putApteka("алалеалалегвдытарвдуоатвралалегвдеытарвдуоатвргвдытарвдуоатвр").
+                putLastName(last).
+                putFirstName(first).
+                putPassword(pass).
+                putCity(city).
+                putApteka(apteka).
                 putMail("").
                 checkMaxAptekaMessage().
                 checkMaxCityMessage().
@@ -57,15 +57,16 @@ public class ErrorRegistrationTest extends BaseTest {
                 checkMaxPassMessage();
 
     }
- @Test
-    public void ErrorLengthMinField() throws InterruptedException {
+
+    @Test (dataProvider = "ErrorShortRegistration", dataProviderClass = DataProviders.class)
+    public void ErrorLengthMinField(String last, String first, String pass ) throws InterruptedException {
 
         step.
                 openPharm().
                 clickRegButton().
-                putLastName("а").
-                putFirstName("а").
-                putPassword("d").
+                putLastName(last).
+                putFirstName(first).
+                putPassword(pass).
                 putMail("").
                 checkMinFirstNameMessage().
                 checkMinLastNameMessage().
@@ -74,67 +75,22 @@ public class ErrorRegistrationTest extends BaseTest {
 Thread.sleep(1000);
     }
 
-    @Test
-    public void ErrorInvalidField() throws InterruptedException {
+    @Test (dataProvider = "ErrorRegistration", dataProviderClass = DataProviders.class)
+    public void ErrorInvalidField(String last, String first, String city, String mail) throws InterruptedException {
 
         step.
                 openPharm().
                 clickRegButton().
 
-                putLastName("!@#$%^&*()_").
-                putMail("").
+                putLastName(last).
+                putFirstName(first).
+                putMail(mail).
+                putCity(city).
+                putApteka("").
                 checkInvalidLastname().
-
-
-
-                putFirstName("!@#$%^&*()_").
-                putMail("").
                 checkInvalidFirstname().
-                putLastName("12345").
-                putMail("").
-                checkInvalidLastname().
-
-                putFirstName("12345").
-                putMail("").
-                checkInvalidFirstname().
-
-                putCity("12345").
-                putMail("").
-                putApteka("").
                 checkInvalidCity().
-
-                putCity("!@#$%^&*()_").
-                putMail("").
-                checkInvalidCity().
-
-                putMail("qwerty").
-                putApteka("").
-                checkInvalidMail().
-
-                putMail("12345").
-                putApteka("").
-                checkInvalidMail().
-
-                putMail("!@#$%^").
-                putApteka("").
-                checkInvalidMail().
-
-                putMail("qwerty@").
-                putApteka("").
-                checkInvalidMail().
-
-                putMail("qwerty fh@yh.f").
-                putApteka("").
-                checkInvalidMail().
-
-                putMail("@ghd.gh").
-                putApteka("").
-                checkInvalidMail().
-
-                putMail("qwerty@gfh").
-                putApteka("").
-                checkInvalidMail()
-                ;
+                checkInvalidMail();
 
 
         Thread.sleep(1000);

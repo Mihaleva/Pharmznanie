@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1460351787522" stop="1460351818459" version="1.4.20" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Google suites (0) : FarmZnanie testx</name>
+    <title>Google suites (0) : FarmZnanie testx</title>
+    <test-cases>
+        <test-case start="1460351789149" stop="1460351796597" status="passed">
+            <name>ErrorInvalidField[!@#$%^&amp;*()_,!@#$%^&amp;*()_,12345,qwerty]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="4968@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460351796669" stop="1460351800226" status="passed">
+            <name>ErrorInvalidField[12345,12345,!@#$%^&amp;*()_,12345]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="4968@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460351800232" stop="1460351803898" status="passed">
+            <name>ErrorInvalidField[12gfgds,123fgd,!@#кап$%^&amp;*()_,!@#$%^]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="4968@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460351803903" stop="1460351807421" status="passed">
+            <name>ErrorInvalidField[12ывпыа5,12авпва5,!@#$dfhd%^&amp;*()_,qwerty@]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="4968@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460351807424" stop="1460351810867" status="passed">
+            <name>ErrorInvalidField[12''//5,12//''345,!@#$453%^&amp;*()_,qwerty fh@yh.f]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="4968@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460351810871" stop="1460351814241" status="passed">
+            <name>ErrorInvalidField[1вап2dghd2345,123dfgыыа45,!@#$%^&amp;*()_,@ghd.gh]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="4968@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460351814244" stop="1460351817610" status="passed">
+            <name>ErrorInvalidField[1234sdg133#%#%'''/.,,5,12dtr./';][po345,!@#$%^&amp;*()_,qwerty@gfh]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="4968@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

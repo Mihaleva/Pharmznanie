@@ -8,6 +8,8 @@ import org.testng.annotations.Test;
 import step.StepLogin;
 import step.StepRegistration;
 
+import java.util.Random;
+
 /**
  * Created by mihaleva on 25.03.2016.
  */
@@ -17,23 +19,32 @@ public class RegistrationTest extends BaseTest {
     StepRegistration step = null;
     StepLogin stepLogin = null;
 
-    @Test
-    public void logInLogOut() throws InterruptedException {
-String phone = "7504708375";
-        String name = "Auto";
-        String lastname = "Test";
-        String city = "Paris";
+    @Test (dataProvider = "Registration", dataProviderClass = DataProviders.class)
+    public void registrationValidData (String name, String lastname, String city, String pass, String mail, String apteka) throws InterruptedException {
+
+
+        final Random random = new Random();
+        String phone = "";
+        for(int i = 0; i < 10; i++) {
+            phone += String.valueOf(random.nextInt()) ;
+        }
+        /*
+        String name = "Auto авто";
+        String lastname = "Test тест";
+        String city = "Paris Москва";
         String pass = "qwerty";
-        String apteka = "Apteka";
+        String mail = "qwerty@fg.yu";
+        String apteka = "Apt !@#$%^&*()_+=-0/.,;:<> ка () \"fhfhf\" '1263729'";*/
         step.
                 openPharm().
                 clickRegButton().
                 putLastName(lastname).
                 putFirstName(name).
                 putPhone(phone).
+                putMail(mail).
                 putCity(city).
-                putPassword(pass).
                 putApteka(apteka).
+                putPassword(pass).
                 enter().
                 checkRegOk();
 

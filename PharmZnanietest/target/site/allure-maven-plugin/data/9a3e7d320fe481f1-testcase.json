@@ -1,0 +1,47 @@
+{
+  "uid" : "9a3e7d320fe481f1",
+  "name" : "register",
+  "title" : "Register",
+  "time" : {
+    "start" : 1460114735872,
+    "stop" : 1460114740098,
+    "duration" : 4226
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c944f5222a5b91c5",
+    "name" : "Google suites (0) : FarmZnanie testx",
+    "title" : "Google suites (0) : FarmZnanie testx"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "PC-103-WS"
+  }, {
+    "name" : "thread",
+    "value" : "9952@PC-103-WS.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Google suites (0) : FarmZnanie testx"
+  }, {
+    "name" : "suite-title",
+    "value" : "Google suites (0) : FarmZnanie testx"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

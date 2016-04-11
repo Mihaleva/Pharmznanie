@@ -1,0 +1,10 @@
+ErrorRegistrationTest.class
+RegistrationTest.class
+DataProviders.class
+RestorePassTest.class
+ErrorLogInTest.class
+ErrorLandingTest.class
+LandingTest.class
+StartPageTest.class
+WebinarTest.class
+LogInTest.class

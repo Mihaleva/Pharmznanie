@@ -20,7 +20,7 @@ public class RestorePassTest extends BaseTest {
     StepRestorePassword step = null;
 
     @Test
-    public void logInLogOut() throws InterruptedException, IOException {
+    public void restorePass() throws InterruptedException, IOException {
 
         step.
                 openPharm().

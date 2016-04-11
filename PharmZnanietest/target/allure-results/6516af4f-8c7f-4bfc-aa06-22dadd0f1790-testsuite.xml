@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1460353385377" stop="1460353429278" version="1.4.20" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Google suites (0) : FarmZnanie testx</name>
+    <title>Google suites (0) : FarmZnanie testx</title>
+    <test-cases>
+        <test-case start="1460353387005" stop="1460353397010" status="passed">
+            <name>logErrorTel[913987353,qwertyuiop]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="14348@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460353397052" stop="1460353403349" status="passed">
+            <name>logErrorTel[9139875583,qwertytyu]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="14348@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460353403351" stop="1460353410230" status="passed">
+            <name>logErrorTel[9139875583,]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="14348@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460353410233" stop="1460353416345" status="passed">
+            <name>logErrorTel[,qwerty]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="14348@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460353416347" stop="1460353422419" status="passed">
+            <name>logErrorTel[913987558,qwerty]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="14348@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460353422421" stop="1460353428495" status="passed">
+            <name>logErrorTel[913987558,qwert]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="14348@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

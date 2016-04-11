@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1460344609559" stop="1460344811822" version="1.4.20" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Google suites (0) : FarmZnanie testx</name>
+    <title>Google suites (0) : FarmZnanie testx</title>
+    <test-cases>
+        <test-case start="1460344614683" stop="1460344626738" status="passed">
+            <name>logInLogOut</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="2416@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460344626773" stop="1460344634129" status="passed">
+            <name>logErrorPass</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="2416@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460344634131" stop="1460344640896" status="passed">
+            <name>logErrorTel</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="2416@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460344640898" stop="1460344647646" status="passed">
+            <name>logNullPass</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="2416@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460344647647" stop="1460344654375" status="passed">
+            <name>logNullTel</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="2416@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460344654377" stop="1460344661630" status="passed">
+            <name>logShotPass</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="2416@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460344661632" stop="1460344668502" status="passed">
+            <name>logShotTel</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="2416@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460344668504" stop="1460344691820" status="passed">
+            <name>logInLogOut</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="2416@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460344691822" stop="1460344781951" status="passed">
+            <name>ErrorInvalidField</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="2416@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460344781956" stop="1460344785097" status="passed">
+            <name>ErrorLengthMaxField</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="2416@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460344785098" stop="1460344788195" status="passed">
+            <name>ErrorLengthMinField</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="2416@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460344788199" stop="1460344790534" status="passed">
+            <name>NullField</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="2416@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460344790535" stop="1460344795205" status="passed">
+            <name>logIn</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="2416@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460344795207" stop="1460344799618" status="passed">
+            <name>register</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="2416@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460344799620" stop="1460344807150" status="passed">
+            <name>logIn</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="2416@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1460344807151" stop="1460344810603" status="passed">
+            <name>register</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC-103-WS"/>
+                <label name="thread" value="2416@PC-103-WS.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -143,6 +143,8 @@ public class RegistrationPage {
         Assert.assertTrue(maxCityError.isDisplayed());
     }
     public void checkMaxApteka (WebDriver driver) throws InterruptedException {
+        apteka.click();
+        password.click();
         Waiter.wait(driver,".//div[contains(.,'Значение поля Аптечное предприятие должно содержать максимум 60 символов.')]", 90, 'x');
         Assert.assertTrue(maxAptekaError.isDisplayed());
     }
@@ -206,8 +208,8 @@ public class RegistrationPage {
         Assert.assertTrue(apteka.isDisplayed());
         apteka.clear();
         apteka.sendKeys(text);
-        apteka.click();
-        telephone.click();
+       // apteka.click();
+        mail.click();
     }
 
     public void putMail(WebDriver driver, String text) throws InterruptedException {

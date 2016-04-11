@@ -1,0 +1,47 @@
+{
+  "uid" : "d1088dc0bf393855",
+  "name" : "logIn",
+  "title" : "Log in",
+  "time" : {
+    "start" : 1460344799620,
+    "stop" : 1460344807150,
+    "duration" : 7530
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "2d9da7703f3e7546",
+    "name" : "Google suites (0) : FarmZnanie testx",
+    "title" : "Google suites (0) : FarmZnanie testx"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "PC-103-WS"
+  }, {
+    "name" : "thread",
+    "value" : "2416@PC-103-WS.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Google suites (0) : FarmZnanie testx"
+  }, {
+    "name" : "suite-title",
+    "value" : "Google suites (0) : FarmZnanie testx"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

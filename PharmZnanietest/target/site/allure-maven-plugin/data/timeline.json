@@ -1,0 +1,364 @@
+{
+  "hosts" : [ {
+    "title" : "PC-103-WS",
+    "threads" : [ {
+      "title" : "2416@PC-103-WS.main(1)",
+      "testCases" : [ {
+        "uid" : "1d65d07cdace372",
+        "name" : "logInLogOut",
+        "title" : "Log in log out",
+        "time" : {
+          "start" : 1460344614683,
+          "stop" : 1460344626738,
+          "duration" : 12055
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8e9ab4e203793324",
+        "name" : "logErrorPass",
+        "title" : "Log error pass",
+        "time" : {
+          "start" : 1460344626773,
+          "stop" : 1460344634129,
+          "duration" : 7356
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c8bcd8f010555248",
+        "name" : "logErrorTel",
+        "title" : "Log error tel",
+        "time" : {
+          "start" : 1460344634131,
+          "stop" : 1460344640896,
+          "duration" : 6765
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "38d9166498df0494",
+        "name" : "logNullPass",
+        "title" : "Log null pass",
+        "time" : {
+          "start" : 1460344640898,
+          "stop" : 1460344647646,
+          "duration" : 6748
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d2a9a703532c6892",
+        "name" : "logNullTel",
+        "title" : "Log null tel",
+        "time" : {
+          "start" : 1460344647647,
+          "stop" : 1460344654375,
+          "duration" : 6728
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5b7cceaaecf9b76c",
+        "name" : "logShotPass",
+        "title" : "Log shot pass",
+        "time" : {
+          "start" : 1460344654377,
+          "stop" : 1460344661630,
+          "duration" : 7253
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "1d7f2d14fee9ac5c",
+        "name" : "logShotTel",
+        "title" : "Log shot tel",
+        "time" : {
+          "start" : 1460344661632,
+          "stop" : 1460344668502,
+          "duration" : 6870
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b7d8f6064bbb64a3",
+        "name" : "logInLogOut",
+        "title" : "Log in log out",
+        "time" : {
+          "start" : 1460344668504,
+          "stop" : 1460344691820,
+          "duration" : 23316
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "66e08abc8538032a",
+        "name" : "ErrorInvalidField",
+        "title" : "Error invalid field",
+        "time" : {
+          "start" : 1460344691822,
+          "stop" : 1460344781951,
+          "duration" : 90129
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a5ea5dab3f9bba0e",
+        "name" : "ErrorLengthMaxField",
+        "title" : "Error length max field",
+        "time" : {
+          "start" : 1460344781956,
+          "stop" : 1460344785097,
+          "duration" : 3141
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e1406ec664f505e4",
+        "name" : "ErrorLengthMinField",
+        "title" : "Error length min field",
+        "time" : {
+          "start" : 1460344785098,
+          "stop" : 1460344788195,
+          "duration" : 3097
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "998f23597a30878d",
+        "name" : "NullField",
+        "title" : "Null field",
+        "time" : {
+          "start" : 1460344788199,
+          "stop" : 1460344790534,
+          "duration" : 2335
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "251c5d254121062f",
+        "name" : "logIn",
+        "title" : "Log in",
+        "time" : {
+          "start" : 1460344790535,
+          "stop" : 1460344795205,
+          "duration" : 4670
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c8939b97bc01743a",
+        "name" : "register",
+        "title" : "Register",
+        "time" : {
+          "start" : 1460344795207,
+          "stop" : 1460344799618,
+          "duration" : 4411
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d1088dc0bf393855",
+        "name" : "logIn",
+        "title" : "Log in",
+        "time" : {
+          "start" : 1460344799620,
+          "stop" : 1460344807150,
+          "duration" : 7530
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8eb83eb4f1d97df2",
+        "name" : "register",
+        "title" : "Register",
+        "time" : {
+          "start" : 1460344807151,
+          "stop" : 1460344810603,
+          "duration" : 3452
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "title" : "9952@PC-103-WS.main(1)",
+      "testCases" : [ {
+        "uid" : "121dcc56a651b368",
+        "name" : "logInLogOut",
+        "title" : "Log in log out",
+        "time" : {
+          "start" : 1460114622164,
+          "stop" : 1460114634378,
+          "duration" : 12214
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d5036bdc3f5254b3",
+        "name" : "logErrorPass",
+        "title" : "Log error pass",
+        "time" : {
+          "start" : 1460114634412,
+          "stop" : 1460114642081,
+          "duration" : 7669
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "6a9cf86bbb783b4a",
+        "name" : "logErrorTel",
+        "title" : "Log error tel",
+        "time" : {
+          "start" : 1460114642083,
+          "stop" : 1460114649110,
+          "duration" : 7027
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8c596f64d0cf8693",
+        "name" : "logNullPass",
+        "title" : "Log null pass",
+        "time" : {
+          "start" : 1460114649111,
+          "stop" : 1460114656096,
+          "duration" : 6985
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "6eb59e2d45a6401b",
+        "name" : "logNullTel",
+        "title" : "Log null tel",
+        "time" : {
+          "start" : 1460114656097,
+          "stop" : 1460114662907,
+          "duration" : 6810
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "1a9e5918b6d6779c",
+        "name" : "logShotPass",
+        "title" : "Log shot pass",
+        "time" : {
+          "start" : 1460114662908,
+          "stop" : 1460114670527,
+          "duration" : 7619
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "52d123da83ed446b",
+        "name" : "logShotTel",
+        "title" : "Log shot tel",
+        "time" : {
+          "start" : 1460114670529,
+          "stop" : 1460114677689,
+          "duration" : 7160
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "704d5a638bca7b0c",
+        "name" : "logInLogOut",
+        "title" : "Log in log out",
+        "time" : {
+          "start" : 1460114677690,
+          "stop" : 1460114700322,
+          "duration" : 22632
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "dbf77229e8fe3ed3",
+        "name" : "ErrorInvalidField",
+        "title" : "Error invalid field",
+        "time" : {
+          "start" : 1460114700324,
+          "stop" : 1460114708733,
+          "duration" : 8409
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "1035cb506e044ea3",
+        "name" : "ErrorLengthMaxField",
+        "title" : "Error length max field",
+        "time" : {
+          "start" : 1460114708737,
+          "stop" : 1460114712167,
+          "duration" : 3430
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "1b6eb3a935d491b6",
+        "name" : "ErrorLengthMinField",
+        "title" : "Error length min field",
+        "time" : {
+          "start" : 1460114712168,
+          "stop" : 1460114715544,
+          "duration" : 3376
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e8882690faaf60d3",
+        "name" : "NullField",
+        "title" : "Null field",
+        "time" : {
+          "start" : 1460114715548,
+          "stop" : 1460114718638,
+          "duration" : 3090
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9f1ee0ca0b4b09a",
+        "name" : "logIn",
+        "title" : "Log in",
+        "time" : {
+          "start" : 1460114718639,
+          "stop" : 1460114723518,
+          "duration" : 4879
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "cbe3c48e83215325",
+        "name" : "register",
+        "title" : "Register",
+        "time" : {
+          "start" : 1460114723520,
+          "stop" : 1460114728183,
+          "duration" : 4663
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2432d8cf13e64b1a",
+        "name" : "logIn",
+        "title" : "Log in",
+        "time" : {
+          "start" : 1460114728184,
+          "stop" : 1460114735871,
+          "duration" : 7687
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "594112ef5008155e",
+        "name" : "register",
+        "title" : "Register",
+        "time" : {
+          "start" : 1460114735872,
+          "stop" : 1460114740098,
+          "duration" : 4226
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

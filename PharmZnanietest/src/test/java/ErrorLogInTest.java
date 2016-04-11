@@ -15,10 +15,18 @@ public class ErrorLogInTest extends BaseTest {
     WebDriver driver = null;
     StepLogin step = null;
 
-   @Test
-    public void logErrorTel() throws InterruptedException {
-
+    @Test (dataProvider = "ErrorLoginPass", dataProviderClass = DataProviders.class)
+    public void logErrorTel(String tel, String pass) throws InterruptedException {
         step.
+                openPharm().
+                clickSignIn().
+                putTelephone(tel).
+                putPassword(pass).
+                clickEnter().
+                checkNotLog();
+    }
+
+        /*     step.
                 openPharm().
                 clickSignIn().
                 putTelephone("913987353").
@@ -88,7 +96,7 @@ public class ErrorLogInTest extends BaseTest {
                 checkNotLog();
     }
 
-
+*/
 
 
     @BeforeTest
